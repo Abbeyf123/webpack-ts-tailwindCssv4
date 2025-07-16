@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // Modern JS features
+    "module": "ESNext",                          // Let Webpack handle modules (ESM)
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],    // Browser + modern JS
+    "jsx": "react-jsx",                          // React 17+ JSX transform
+    "outDir": "./dist/",                         // Output directory
+    "strict": true,                              // All strict type-checking
+    "moduleResolution": "Node",                  // Node-style resolution
+    "esModuleInterop": true,                     // Default imports from CommonJS
+    "allowSyntheticDefaultImports": true,        // Support default imports
+    "forceConsistentCasingInFileNames": true,    // Avoid case-sensitive import issues
+    "skipLibCheck": true,                        // Skip type checks in node_modules
+    "resolveJsonModule": true,                   // Import .json files
+    "isolatedModules": true,                     // For tools like Babel
+    "noEmit": false                               // Let Webpack handle emitting files
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
