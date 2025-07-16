@@ -9,7 +9,7 @@ This project demonstrates how to set up and use [Webpack](https://webpack.js.org
 ## Note!
  This project is not for absolute beginners as this is just a setup for basic webpack and tailwind configuration.All optimization features and configuration are not included in this project just a basic css, typescript and tailwind v4 configuration, all other features should be included by the developer. 
 
- The entry to the the webpack configuration is "webpack.dev.config.js" you should configure the webpack config for the production build yourself : your visit the [Webpack](https://webpack.js.org/) for more details.
+ The entry to the the webpack configuration is "webpack.dev.config.js" you should configure the webpack config for the production build yourself : visit the [Webpack](https://webpack.js.org/) for more details.
 
 
 
@@ -22,7 +22,7 @@ This project demonstrates how to set up and use [Webpack](https://webpack.js.org
     ```
 3. Start the development server:
     ```bash
-    npm start
+    node server.js
     ```
 
 ## License
